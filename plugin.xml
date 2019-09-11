@@ -10,7 +10,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <repo>https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging</repo>
     <issue>https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging/issues</issue>
 
-    <dependency id="cordova-plugin-firebase-analytics" version="~2.0.0"/>
+    <dependency id="cordova-plugin-firebase-analytics" version="~3.0.0"/>
 
     <engines>
         <engine name="cordova" version=">=9.0.0"/>
@@ -24,7 +24,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods>
-                <pod name="Firebase/InAppMessagingDisplay" spec="~> 6.2.0" />
+                <pod name="FirebaseInAppMessagingDisplay" spec="0.15.2" />
             </pods>
         </podspec>
     </platform>

@@ -30,7 +30,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </platform>
 
     <platform name="android">
-        <preference name="FIREBASE_INAPPMESSAGING_VERSION" default="18.0.1"/>
+        <preference name="FIREBASE_INAPPMESSAGING_VERSION" default="17.0.4"/>
 
         <framework src="com.google.firebase:firebase-inappmessaging-display:$FIREBASE_INAPPMESSAGING_VERSION" />
     </platform>
